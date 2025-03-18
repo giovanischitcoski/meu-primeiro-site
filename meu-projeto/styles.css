@@ -1,0 +1,218 @@
+/* Reset de margens e padding para garantir consistência entre navegadores */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos gerais do corpo da página */
+body {
+  background-color: #FBF5DD; /* Cor de fundo */
+  font-family: 'Roboto', sans-serif; /* Fonte padrão */
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+/* Container principal */
+.wrapper {
+  width: 1200px; /* Largura máxima */
+  display: flex;
+  margin: 0 auto; /* Centraliza o container */
+  background-color: #223242; /* Cor de fundo */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Conteúdo principal */
+.main {
+  display: flex;
+  flex-flow: column; /* Organiza os elementos em coluna */
+  width: 85%; /* Largura do conteúdo principal */
+}
+
+/* Menu lateral */
+.menu {
+  box-shadow: inset 0 0 10px #000; /* Sombra interna */
+  width: 15%; /* Largura do menu */
+  background-color: #16404D; /* Cor de fundo */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 10px 20px 0px; /* Espaçamento interno */
+  color: azure; /* Cor do texto */
+  font-size: 20px; /* Tamanho da fonte */
+}
+
+.menu ul {
+  list-style-type: none; /* Remove os marcadores de lista */
+  margin: 0;
+  padding: 0;
+  color: white; /* Cor do texto */
+}
+
+.menu li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: white; /* Cor do texto */
+}
+
+.menu li:hover {
+  background-color: #d1def0; /* Cor de fundo ao passar o mouse */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor ao passar o mouse */
+}
+
+/* Cabeçalho */
+.header {
+  background-image: url(img/banner.png); /* Imagem de fundo */
+  background-size: cover; /* Ajusta a imagem ao tamanho do container */
+  background-position: center; /* Centraliza a imagem */
+  min-height: 150px; /* Altura mínima */
+  border-radius: 10px 10px 0 0; /* Bordas arredondadas */
+  display: flex;
+}
+
+/* Conteúdo da página */
+.content {
+  background-color: #A6CDC6; /* Cor de fundo */
+  border-radius: 10px; /* Bordas arredondadas */
+  min-height: 300px; /* Altura mínima */
+  padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilização da tabela */
+table {
+  width: 80%; /* Largura da tabela */
+  margin: auto; /* Centraliza a tabela */
+  border-collapse: collapse; /* Remove espaços entre as células */
+  background: white; /* Cor de fundo */
+  border-radius: 10px; /* Bordas arredondadas */
+  overflow: hidden; /* Esconde o conteúdo que ultrapassa as bordas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilização dos cabeçalhos da tabela */
+th {
+  background-color: #031564; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  padding: 12px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+}
+
+/* Estilização das células da tabela */
+td {
+  padding: 12px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  border-bottom: 1px solid #ddd; /* Borda inferior */
+}
+
+/* Alternância de cores nas linhas da tabela */
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Cor de fundo para linhas pares */
+}
+
+/* Efeito ao passar o mouse sobre as linhas da tabela */
+tr:hover {
+  background-color: #d1def0; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilização do iframe (mapa) */
+iframe {
+  width: 100%; /* Largura total */
+  height: 100%; /* Altura total */
+  border: 0; /* Remove a borda */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Estilização do formulário */
+form {
+  max-width: 500px; /* Largura máxima */
+  margin: 20px auto; /* Centraliza o formulário */
+  padding: 20px; /* Espaçamento interno */
+  background: white; /* Cor de fundo */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilização dos rótulos do formulário */
+label {
+  font-weight: bold; /* Texto em negrito */
+  display: block; /* Exibe em bloco */
+  margin-top: 10px; /* Margem superior */
+  color: #2c3e50; /* Cor do texto */
+}
+
+/* Campos de entrada do formulário */
+input, textarea {
+  width: 95%; /* Largura total */
+  padding: 10px; /* Espaçamento interno */
+  margin-top: 5px; /* Margem superior */
+  border: 1px solid #ddd; /* Borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Ajustes para textarea */
+textarea {
+  height: 120px; /* Altura */
+  resize: vertical; /* Permite redimensionamento vertical */
+}
+
+/* Estilização do botão do formulário */
+button {
+  width: 100%; /* Largura total */
+  padding: 12px; /* Espaçamento interno */
+  margin-top: 15px; /* Margem superior */
+  background-color: #27ae60; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  border: none; /* Remove a borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 18px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor ao passar o mouse */
+  transition: background 0.3s ease-in-out; /* Transição suave */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+  background-color: #219150; /* Cor de fundo ao passar o mouse */
+}
+
+/* Rodapé */
+.footer {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  flex-direction: column; /* Organiza os elementos em coluna */
+  padding: 20px; /* Espaçamento interno */
+  background-color: #223242; /* Cor de fundo */
+  border-radius: 10px; /* Bordas arredondadas */
+  color: azure; /* Cor do texto */
+  margin-top: 20px; /* Margem superior */
+}
+
+.footer ul {
+  list-style-type: none; /* Remove os marcadores de lista */
+  margin-right: 30px;
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.footer li {
+  margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+/* Container da newsletter */
+.newsletter-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  flex-direction: column; /* Organiza os elementos em coluna */
+  padding: 20px; /* Espaçamento interno */
+  background-color: #223242; /* Cor de fundo */
+  border-radius: 10px; /* Bordas arredondadas */
+  color: azure; /* Cor do texto */
+  margin-top: 20px; /* Margem superior */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+  form {
+      width: 90%; /* Largura reduzida */
+  }
+}

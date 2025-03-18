@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags para configuração do documento -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título da página e links para folha de estilo e ícone -->
+    <title>VitaCare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="img/medical.ico">
+</head>
+<body>
+    <!-- Estrutura principal da página -->
+    <div class="wrapper">
+        <!-- Menu de navegação -->
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <!-- Conteúdo principal -->
+        <div class="main">
+            <!-- Cabeçalho -->
+            <div class="header">
+                <header>
+                    <!-- O cabeçalho pode conter uma imagem ou título -->
+                </header>
+            </div>
+
+            <!-- Conteúdo da página -->
+            <div class="content">
+                <!-- Formulário de contato -->
+                <form>
+                    <h1>Entre em Contato</h1>
+                    <p>Entre em contato conosco para agendar uma consulta ou tirar dúvidas sobre nossos serviços.</p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+
+                <!-- Mapa de localização -->
+                <h2>Nossa Localização:</h2>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.954599822978!2d-46.633309!3d-23.5489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5824a247999f%3A0x2e7d7e3d0f033fe7!2sPra%C3%A7a%20da%20S%C3%A9%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1646920109123!5m2!1spt-BR!2sbr" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Rodapé -->
+            <div class="footer">
+                    <p>© 2024 VitaCare - Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

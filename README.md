@@ -31,7 +31,6 @@ Bem-vindo ao **VitaCare**, um site de clínica médica **fictícia** desenvolvid
    - Links para redes sociais fictícias.
 
 ### Recursos
-- **Design Responsivo**: Adapta-se a diferentes tamanhos de tela (desktop, tablet, mobile).
 - **Formulário Funcional**: Permite que os usuários simulem o envio de mensagens.
 - **Mapa Interativo**: Mostra uma localização fictícia usando o Google Maps.
 

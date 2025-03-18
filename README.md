@@ -68,4 +68,3 @@ Este projeto é **fictício** e foi desenvolvido apenas para fins educacionais. 
 ---
 
 Feito com ❤️ por [Giovani](https://github.com/giovanischitcoski).
-```

@@ -36,6 +36,32 @@ Bem-vindo ao **VitaCare**, um site de clínica médica **fictícia** desenvolvid
 
 ---
 
+## 🚀 Como Executar o Projeto
+
+Siga estas instruções para rodar o projeto localmente em sua máquina.
+
+### 📌 Pré-requisitos
+- Um navegador moderno (Google Chrome, Firefox, Edge, etc.).
+- Um editor de código (recomendamos [VS Code](https://code.visualstudio.com/)).
+
+### 🛠 Passos para Execução
+
+1. **Clone o repositório**:
+   ```bash
+   [git clone https://github.com/giovanischitcoski/meu-primeiro-site]
+   ```
+
+2. **Acesse a pasta do projeto**:
+   ```bash
+   cd meu-projeto
+   ```
+
+3. **Abra o projeto**:
+   - Abra o arquivo `index.html` no navegador **ou**
+   - Use a extensão **Live Server** no VS Code para visualizar as alterações em tempo real.
+
+---
+
 ### 🚨 Aviso Legal
 Este projeto é **fictício** e foi desenvolvido apenas para fins educacionais. A clínica **VitaCare** não existe, e qualquer semelhança com nomes, marcas ou empresas reais é pura coincidência.
 
